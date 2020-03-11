@@ -16,7 +16,7 @@
 
         <?php
         function countDown($n) {
-            for ($i = $n; $i > 0; $i--)
+            for ($i=$n; $i>0; $i--)
             echo "$i <br>";
         }
 
