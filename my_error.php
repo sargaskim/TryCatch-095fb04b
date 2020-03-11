@@ -17,7 +17,8 @@
         <?php
         function countDown($n) {
             for ($x = $n; $x > 0; $x--) {
-            echo "$x <br>";
+                echo "$x <br>";
+            }
         }
 
         if (isset($_GET["text"])) {
